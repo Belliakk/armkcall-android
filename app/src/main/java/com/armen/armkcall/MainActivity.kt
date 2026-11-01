@@ -89,7 +89,6 @@ fun AppScreen() {
                         Text(food.name, style = MaterialTheme.typography.bodyLarge)
                         Text("${food.calories} ккал", style = MaterialTheme.typography.bodySmall)
                     }
-                    HorizontalDivider()
                 }
             } else {
                 item { Text("Съедено за день:", style = MaterialTheme.typography.titleSmall) }
@@ -98,7 +97,6 @@ fun AppScreen() {
                         Text(food.name, style = MaterialTheme.typography.bodyLarge)
                         Text("Б: ${food.protein}г Ж: ${food.fat}г У: ${food.carbs}г", style = MaterialTheme.typography.bodySmall)
                     }
-                    HorizontalDivider()
                 }
             }
         }
