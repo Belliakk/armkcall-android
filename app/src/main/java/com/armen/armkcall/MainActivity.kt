@@ -1,4 +1,4 @@
-﻿package com.armen.armkcall
+package com.armen.armkcall
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
