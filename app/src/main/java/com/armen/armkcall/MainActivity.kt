@@ -104,7 +104,7 @@ fun AppScreen() {
 }
 
 suspend fun searchFood(query: String): List<FoodItem> = withContext(Dispatchers.IO) {
-    val apiKey = "ТВОЙ_КЛЮЧ_USDA"
+    val apiKey = "8RQTP9hbdPHNmkf9G7KkTKrzLFtRzqcwPwbnKTNG"
     val url = "https://api.nal.usda.gov/fdc/v1/foods/search?query=$query&api_key=$apiKey&pageSize=5"
     val client = OkHttpClient()
     val request = Request.Builder().url(url).build()
